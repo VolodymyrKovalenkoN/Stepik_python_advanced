@@ -1,5 +1,9 @@
-list1 = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
-list1[2][2].append(7000)
-a=0
-b  =1
-print(list1)
+n = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+print(n)
+
+for i in range(len(n)):
+    for j in range(len(n)):
+        print(n[j][i], end=" ")
+    print()
