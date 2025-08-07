@@ -20,5 +20,4 @@ for ch in string:
             index = v.index(ch)
             keyboard.append(k*(index+1))
 message = "".join(keyboard)
-print(message)
-    
+print(message)   

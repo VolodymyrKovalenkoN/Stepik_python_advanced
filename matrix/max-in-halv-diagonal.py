@@ -5,4 +5,4 @@ n = int(input())
 matrix = input_matrix(n)
 
 max_element = max(matrix[i][j] for i in range(n) for j in range(i+1))
-print(max_element)
+print(max_element) 
